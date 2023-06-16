@@ -1,0 +1,941 @@
+16.06 20:34:15 [Multicraft] Loading server properties
+16.06 20:34:15 [Multicraft] Loaded config for "Forge 1.19.2"
+16.06 20:34:15 [Multicraft] Starting server!
+16.06 20:34:16 [Multicraft] Updating eula.txt file
+16.06 20:34:16 [Server] INFO WARNING: Published ports are discarded when using host network mode
+16.06 20:34:16 [Server] INFO 6f561a2256dd7b00638ba28a81eb25c382178774c5b93775bcef6311c07f3aee
+16.06 20:34:19 [Server] INFO [Log4jPatcher] [INFO] Transforming org/apache/logging/log4j/core/pattern/MessagePatternConverter
+16.06 20:34:19 [Server] INFO [Log4jPatcher] [WARN]  Unable to find noLookups:Z field in org/apache/logging/log4j/core/pattern/MessagePatternConverter
+16.06 20:34:19 [Server] INFO [Log4jPatcher] [INFO] Transforming org/apache/logging/log4j/core/lookup/JndiLookup
+16.06 20:34:19 [Server] main/INFO [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.2.11, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+16.06 20:34:19 [Server] main/INFO [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.7 by Eclipse Adoptium; OS Linux arch amd64 version 3.10.0-1160.36.2.el7.x86_64
+16.06 20:34:20 [Server] main/INFO [op.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+16.06 20:34:20 [Server] main/INFO [op.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/mods/OptiFine_1.19.2_HD_U_I1.jar%23161!/
+16.06 20:34:20 [Server] main/INFO [op.OptiFineTransformationService/]: OptiFine ZIP file: /mods/OptiFine_1.19.2_HD_U_I1.jar
+16.06 20:34:20 [Server] main/INFO [op.OptiFineTransformer/]: Target.PRE_CLASS is available
+16.06 20:34:20 [Server] main/INFO [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/jar/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+16.06 20:34:20 [Server] main/INFO [op.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+16.06 20:34:20 [Server] main/WARN [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /jar/libraries/net/minecraftforge/fmlcore/1.19.2-43.2.11/fmlcore-1.19.2-43.2.11.jar is missing mods.toml file
+16.06 20:34:20 [Server] main/WARN [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /jar/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.2.11/javafmllanguage-1.19.2-43.2.11.jar is missing mods.toml file
+16.06 20:34:20 [Server] main/WARN [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /jar/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.2.11/lowcodelanguage-1.19.2-43.2.11.jar is missing mods.toml file
+16.06 20:34:20 [Server] main/WARN [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /jar/libraries/net/minecraftforge/mclanguage/1.19.2-43.2.11/mclanguage-1.19.2-43.2.11.jar is missing mods.toml file
+16.06 20:34:21 [Server] main/WARN [ne.mi.ja.se.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: flywheel. Using Mod File: /mods/flywheel-forge-1.19.2-0.6.8.a (1).jar
+16.06 20:34:21 [Server] main/INFO [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+16.06 20:34:21 [Server] main/INFO [op.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+16.06 20:34:21 [Server] main/INFO [op.OptiFineTransformer/]: Targets: 386
+16.06 20:34:22 [Server] main/INFO [op.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+16.06 20:34:24 [Server] main/INFO [mixin/]: Compatibility level set to JAVA_17
+16.06 20:34:24 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+16.06 20:34:24 [Server] main/INFO [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+16.06 20:34:24 [Server] main/WARN [mixin/]: Reference map 'insanelib.refmap.json' for insanelib.mixins.json could not be read. If this is a development environment you can ignore this message
+16.06 20:34:24 [Server] main/WARN [mixin/]: Reference map 'labels-common-refmap.json' for labels-common.mixins.json could not be read. If this is a development environment you can ignore this message
+16.06 20:34:24 [Server] main/WARN [mixin/]: Reference map 'labels-forge-refmap.json' for labels.mixins.json could not be read. If this is a development environment you can ignore this message
+16.06 20:34:24 [Server] main/WARN [mixin/]: Reference map 'idas.refmap.json' for idas.mixins.json could not be read. If this is a development environment you can ignore this message
+16.06 20:34:25 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+16.06 20:34:25 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+16.06 20:34:25 [Server] INFO java.io.IOException: Base resource not found: ad.class
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:25 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.getMaybeTransformedClassBytes(ModuleClassLoader.java:250)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:58)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchPluginHandler.lambda$announceLaunch$10(LaunchPluginHandler.java:100)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:2005)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.getTargetClass(MixinInfo.java:1017)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.readTargetClasses(MixinInfo.java:1007)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.parseTargets(MixinInfo.java:895)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:867)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:775)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:539)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:25 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+16.06 20:34:25 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+16.06 20:34:25 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+16.06 20:34:25 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+16.06 20:34:25 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:632)
+16.06 20:34:25 [Server] INFO at java.base/java.lang.Class.forName(Class.java:545)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.11/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+16.06 20:34:25 [Server] INFO at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+16.06 20:34:25 [Server] INFO java.io.IOException: Base resource not found: bce.class
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+16.06 20:34:25 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:25 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.getMaybeTransformedClassBytes(ModuleClassLoader.java:250)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:58)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchPluginHandler.lambda$announceLaunch$10(LaunchPluginHandler.java:100)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:2005)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.getTargetClass(MixinInfo.java:1017)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.readTargetClasses(MixinInfo.java:1007)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.parseTargets(MixinInfo.java:895)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:867)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:775)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:539)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:25 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+16.06 20:34:25 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+16.06 20:34:25 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+16.06 20:34:25 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+16.06 20:34:25 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:632)
+16.06 20:34:25 [Server] INFO at java.base/java.lang.Class.forName(Class.java:545)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.11/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+16.06 20:34:25 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+16.06 20:34:25 [Server] INFO at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+16.06 20:34:25 [Server] main/WARN [mixin/]: Error loading class: com/hollingsworth/arsnouveau/common/items/SpellCrossbow (java.lang.ClassNotFoundException: com.hollingsworth.arsnouveau.common.items.SpellCrossbow)
+16.06 20:34:25 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+16.06 20:34:25 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+
+16.06 20:34:27 [Server] INFO java.io.IOException: Base resource not found: abb.class
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+16.06 20:34:27 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.chat.Style.m_237255_(Style.java:34)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/datafixerupper@5.0.28/com.mojang.serialization.codecs.RecordCodecBuilder.create(RecordCodecBuilder.java:72)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.chat.Style.<clinit>(Style.java:27)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.chat.MutableComponent.m_237204_(MutableComponent.java:29)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.chat.Component.m_237115_(Component.java:440)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.commands.BrigadierExceptions.<clinit>(BrigadierExceptions.java:24)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.SharedConstants.<clinit>(SharedConstants.java:217)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Main.main(Main.java:64)
+16.06 20:34:27 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+16.06 20:34:27 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+16.06 20:34:27 [Server] INFO at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+16.06 20:34:27 [Server] INFO at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.11/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+16.06 20:34:27 [Server] INFO at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+16.06 20:34:27 [Server] INFO java.io.IOException: Base resource not found: q.class
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+16.06 20:34:27 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Main.main(Main.java:105)
+16.06 20:34:27 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+16.06 20:34:27 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+16.06 20:34:27 [Server] INFO at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+16.06 20:34:27 [Server] INFO at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.11/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+16.06 20:34:27 [Server] INFO at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+16.06 20:34:27 [Server] INFO java.io.IOException: Base resource not found: ad.class
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+16.06 20:34:27 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.SystemReport.m_241713_(SystemReport.java:55)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.SystemReport.m_143522_(SystemReport.java:66)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.SystemReport.<init>(SystemReport.java:54)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.CrashReport.<init>(CrashReport.java:31)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.CrashReport.m_127529_(CrashReport.java:215)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Main.main(Main.java:105)
+16.06 20:34:27 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+16.06 20:34:27 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+16.06 20:34:27 [Server] INFO at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+16.06 20:34:27 [Server] INFO at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.11/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+16.06 20:34:27 [Server] INFO at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+16.06 20:34:27 [Server] INFO java.io.IOException: Base resource not found: ad$1.class
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+16.06 20:34:27 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.SystemReport.m_241713_(SystemReport.java:55)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.SystemReport.m_143522_(SystemReport.java:66)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.SystemReport.<init>(SystemReport.java:54)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.CrashReport.<init>(CrashReport.java:31)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.CrashReport.m_127529_(CrashReport.java:215)
+16.06 20:34:27 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Main.main(Main.java:105)
+16.06 20:34:27 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+16.06 20:34:27 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+16.06 20:34:27 [Server] INFO at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+16.06 20:34:27 [Server] INFO at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.11/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+16.06 20:34:27 [Server] INFO at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+16.06 20:34:27 [Server] INFO java.io.IOException: Base resource not found: ad$9.class
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+16.06 20:34:27 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+16.06 20:34:27 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+16.06 20:34:27 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:2005)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformSingleDescriptor(MixinTargetContext.java:981)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformSingleDescriptor(MixinTargetContext.java:943)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformMethodDescriptor(MixinTargetContext.java:998)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformDescriptor(MixinTargetContext.java:899)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformMethod(MixinTargetContext.java:448)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyNormalMethod(MixinApplicatorStandard.java:532)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMethods(MixinApplicatorStandard.java:518)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:386)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:34 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+16.06 20:34:34 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+16.06 20:34:34 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+16.06 20:34:34 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+16.06 20:34:34 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+16.06 20:34:34 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.core.GlobalPos.m_122641_(GlobalPos.java:11)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/datafixerupper@5.0.28/com.mojang.serialization.codecs.RecordCodecBuilder.create(RecordCodecBuilder.java:72)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.core.GlobalPos.<clinit>(GlobalPos.java:11)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.ai.memory.MemoryModuleType.<clinit>(MemoryModuleType.java:31)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.animal.frog.Tadpole.<clinit>(Tadpole.java:54)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.EntityType.<clinit>(EntityType.java:252)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.feature.MonsterRoomFeature.<clinit>(MonsterRoomFeature.java:26)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.feature.Feature.<clinit>(Feature.java:81)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.worldgen.features.AquaticFeatures.<clinit>(AquaticFeatures.java:20)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.worldgen.features.FeatureUtils.m_236677_(FeatureUtils.java:24)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.m_236009_(BuiltinRegistries.java:87)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.m_236004_(BuiltinRegistries.java:114)
+16.06 20:34:34 [Server] INFO at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.<clinit>(BuiltinRegistries.java:113)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.core.Registry.<clinit>(Registry.java:665)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:43)
+16.06 20:34:34 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Main.main(Main.java:110)
+16.06 20:34:34 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+16.06 20:34:34 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+16.06 20:34:34 [Server] INFO at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+16.06 20:34:34 [Server] INFO at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.11/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+16.06 20:34:34 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+16.06 20:34:35 [Multicraft] Skipped 3 lines due to rate limit (160/s)
+16.06 20:34:35 [Server] INFO java.io.IOException: Base resource not found: dbr.class
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:35 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.getMaybeTransformedClassBytes(ModuleClassLoader.java:250)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:58)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchPluginHandler.lambda$announceLaunch$10(LaunchPluginHandler.java:100)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:2005)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformSingleDescriptor(MixinTargetContext.java:981)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformSingleDescriptor(MixinTargetContext.java:943)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformMethodDescriptor(MixinTargetContext.java:998)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformDescriptor(MixinTargetContext.java:899)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformMethod(MixinTargetContext.java:448)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyNormalMethod(MixinApplicatorStandard.java:532)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMethods(MixinApplicatorStandard.java:518)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:386)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:35 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+16.06 20:34:35 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+16.06 20:34:35 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+16.06 20:34:35 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+16.06 20:34:35 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+16.06 20:34:35 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.presets.WorldPresets.m_226447_(WorldPresets.java:107)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.m_236009_(BuiltinRegistries.java:87)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.m_236004_(BuiltinRegistries.java:114)
+16.06 20:34:35 [Server] INFO at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.<clinit>(BuiltinRegistries.java:113)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.core.Registry.<clinit>(Registry.java:665)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:43)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Main.main(Main.java:110)
+16.06 20:34:35 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+16.06 20:34:35 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+16.06 20:34:35 [Server] INFO at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+16.06 20:34:35 [Server] INFO at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.11/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+16.06 20:34:35 [Server] INFO at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+16.06 20:34:35 [Server] main/INFO [ne.mi.co.Co.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/EnchantedBookItem
+16.06 20:34:35 [Server] INFO java.io.IOException: Base resource not found: ej.class
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+16.06 20:34:35 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:35 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+16.06 20:34:35 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+16.06 20:34:35 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+16.06 20:34:35 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+16.06 20:34:35 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+16.06 20:34:35 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.commands.synchronization.ArgumentTypeInfos.m_235384_(ArgumentTypeInfos.java:109)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.core.Registry.lambda$internalRegister$54(Registry.java:461)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.core.Registry.lambda$static$70(Registry.java:667)
+16.06 20:34:35 [Server] INFO at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.core.Registry.<clinit>(Registry.java:666)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:43)
+16.06 20:34:35 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Main.main(Main.java:110)
+16.06 20:34:35 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+16.06 20:34:35 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+16.06 20:34:35 [Server] INFO at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+16.06 20:34:35 [Server] INFO at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.11/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+16.06 20:34:35 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+16.06 20:34:35 [Server] INFO at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+
+16.06 20:34:52 [Server] main/INFO [quark/]: Loading Module Totem Of Holding
+16.06 20:34:52 [Server] main/INFO [quark/]: Loading Module Tiny Potato
+16.06 20:34:52 [Server] main/INFO [quark/]: Loading Module Pipes
+16.06 20:34:52 [Server] main/INFO [quark/]: Loading Module Matrix Enchanting
+16.06 20:34:52 [Server] main/INFO [quark/]: Loading Module Magnets
+16.06 20:34:52 [Server] main/INFO [quark/]: Loading Module Crate
+16.06 20:34:52 [Server] main/INFO [quark/]: Loading Module Backpack
+16.06 20:34:52 [Server] main/INFO [quark/]: Dispatching Module Step CONFIG_CHANGED
+16.06 20:34:52 [Server] modloading-worker-0/INFO [de.it.be.BetterAnimalsPlusMod/]: Overspawning lammergeiers...
+16.06 20:34:52 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [horseexpert] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/horseexpert.json
+16.06 20:34:52 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [horseexpert] Found status: UP_TO_DATE Current: 4.0.0 Target: null
+16.06 20:34:52 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.19.2
+16.06 20:34:53 [Multicraft] Skipped 7 lines due to rate limit (160/s)
+16.06 20:34:53 [Server] modloading-worker-0/INFO [po.by.BYG/]: "/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [bookshelf] Found status: BETA Current: 16.3.20 Target: 16.3.20
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+16.06 20:34:53 [Server] modloading-worker-0/INFO [po.by.BYG/]: "/config/byg/growing-patterns.json5" was read.
+16.06 20:34:53 [Server] modloading-worker-0/INFO [po.by.BYG/]: "/config/byg/trades.json5" was read.
+16.06 20:34:53 [Server] modloading-worker-0/INFO [po.by.BYG/]: "/config/byg/settings.json5" was read.
+16.06 20:34:53 [Server] modloading-worker-0/INFO [po.by.BYG/]: "/config/byg/biomepedia.json5" was read.
+16.06 20:34:53 [Server] modloading-worker-0/INFO [po.by.BYG/]: Created compressed zip back up for "/config/byg" in "/config/byg/backups/last_working_configs_backup.zip"
+16.06 20:34:53 [Server] modloading-worker-0/INFO [po.by.BYG/]: BYG: Added strippable Blocks...
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.2.11 Target: 43.2.14
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/master/forge/update.json
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [supplementaries] Found status: OUTDATED Current: 1.19.2-2.2.39 Target: 1.19.2-2.3.17
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [dsurround] Starting version check at https://raw.githubusercontent.com/Nyfaria/DynamicSurroundingsResurrected/versions/versions.json
+16.06 20:34:53 [Server] modloading-worker-0/INFO [co.sk.wo.ex.pl.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@464681ff]
+16.06 20:34:53 [Server] modloading-worker-0/INFO [co.sk.wo.fo.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.12+6240-87f4ae1) is loaded
+16.06 20:34:53 [Server] INFO java.io.IOException: Base resource not found: ccu.class
+16.06 20:34:53 [Server] INFO at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+16.06 20:34:53 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+16.06 20:34:53 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+16.06 20:34:53 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+16.06 20:34:53 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+16.06 20:34:53 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+16.06 20:34:53 [Server] INFO at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+16.06 20:34:53 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+16.06 20:34:53 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+16.06 20:34:53 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+16.06 20:34:53 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+16.06 20:34:53 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+16.06 20:34:53 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+16.06 20:34:53 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+16.06 20:34:53 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+16.06 20:34:53 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+16.06 20:34:53 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+16.06 20:34:53 [Server] INFO at TRANSFORMER/supplementaries@1.19.2-2.2.39/net.mehvahdjukaar.supplementaries.common.items.loot.RandomArrowFunction.setup(RandomArrowFunction.java:39)
+16.06 20:34:53 [Server] INFO at TRANSFORMER/supplementaries@1.19.2-2.2.39/net.mehvahdjukaar.supplementaries.reg.ModSetup.setup(ModSetup.java:60)
+16.06 20:34:53 [Server] INFO at TRANSFORMER/supplementaries@1.19.2-2.2.39/net.mehvahdjukaar.supplementaries.Supplementaries.commonSetup(Supplementaries.java:86)
+16.06 20:34:53 [Server] INFO at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+16.06 20:34:53 [Server] INFO at LAYER PLUGIN/fmlcore@1.19.2-43.2.11/net.minecraftforge.fml.DeferredWorkQueue.lambda$makeRunnable$1(DeferredWorkQueue.java:67)
+16.06 20:34:53 [Server] INFO at LAYER PLUGIN/fmlcore@1.19.2-43.2.11/net.minecraftforge.fml.DeferredWorkQueue.makeRunnable(DeferredWorkQueue.java:63)
+16.06 20:34:53 [Server] INFO at LAYER PLUGIN/fmlcore@1.19.2-43.2.11/net.minecraftforge.fml.DeferredWorkQueue.lambda$runTasks$0(DeferredWorkQueue.java:57)
+16.06 20:34:53 [Server] INFO at java.base/java.util.concurrent.ConcurrentLinkedDeque.forEach(ConcurrentLinkedDeque.java:1650)
+16.06 20:34:53 [Server] INFO at LAYER PLUGIN/fmlcore@1.19.2-43.2.11/net.minecraftforge.fml.DeferredWorkQueue.runTasks(DeferredWorkQueue.java:57)
+16.06 20:34:53 [Server] INFO at TRANSFORMER/forge@43.2.11/net.minecraftforge.fml.core.ParallelTransition.lambda$finalActivityGenerator$2(ParallelTransition.java:35)
+16.06 20:34:53 [Server] INFO at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+16.06 20:34:53 [Server] INFO at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+16.06 20:34:53 [Server] INFO at LAYER PLUGIN/fmlcore@1.19.2-43.2.11/net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:42)
+16.06 20:34:53 [Server] INFO at LAYER PLUGIN/fmlcore@1.19.2-43.2.11/net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:26)
+16.06 20:34:53 [Server] INFO at LAYER PLUGIN/fmlcore@1.19.2-43.2.11/net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:223)
+16.06 20:34:53 [Server] INFO at LAYER PLUGIN/fmlcore@1.19.2-43.2.11/net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$24(ModLoader.java:208)
+16.06 20:34:53 [Server] INFO at java.base/java.util.Optional.ifPresent(Optional.java:178)
+16.06 20:34:53 [Server] INFO at LAYER PLUGIN/fmlcore@1.19.2-43.2.11/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:208)
+16.06 20:34:53 [Server] INFO at LAYER PLUGIN/fmlcore@1.19.2-43.2.11/net.minecraftforge.fml.ModLoader.lambda$loadMods$17(ModLoader.java:191)
+16.06 20:34:53 [Server] INFO at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+16.06 20:34:53 [Server] INFO at LAYER PLUGIN/fmlcore@1.19.2-43.2.11/net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:191)
+16.06 20:34:53 [Server] INFO at TRANSFORMER/forge@43.2.11/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:33)
+16.06 20:34:53 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Main.main(Main.java:113)
+16.06 20:34:53 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+16.06 20:34:53 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+16.06 20:34:53 [Server] INFO at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+16.06 20:34:53 [Server] INFO at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+16.06 20:34:53 [Server] INFO at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.11/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29)
+16.06 20:34:53 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+16.06 20:34:53 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+16.06 20:34:53 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+16.06 20:34:53 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+16.06 20:34:53 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+16.06 20:34:53 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+16.06 20:34:53 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+16.06 20:34:53 [Server] INFO at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+16.06 20:34:53 [Server] Forge Version Check/WARN [ne.mi.fm.VersionChecker/]: Failed to process update information
+16.06 20:34:53 [Server] INFO com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 5 column 6 path $..5.0.0.4
+16.06 20:34:53 [Server] INFO at com.google.gson.Gson.fromJson(Gson.java:978) ~[gson-2.8.9.jar%2370!/:?] {re:mixin}
+16.06 20:34:53 [Server] INFO at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?] {re:mixin}
+16.06 20:34:53 [Server] INFO at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?] {re:mixin}
+16.06 20:34:53 [Server] INFO at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?] {re:mixin}
+16.06 20:34:53 [Server] INFO at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.2.11.jar%23226!/:?] {}
+16.06 20:34:53 [Server] INFO at java.lang.Iterable.forEach(Iterable.java:75) [?:?] {re:mixin}
+16.06 20:34:53 [Server] INFO at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.2.11.jar%23226!/:?] {}
+16.06 20:34:53 [Server] INFO Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at line 5 column 6 path $..5.0.0.4
+16.06 20:34:53 [Server] INFO at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1562) ~[gson-2.8.9.jar%2370!/:?] {}
+16.06 20:34:53 [Server] INFO at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:490) ~[gson-2.8.9.jar%2370!/:?] {}
+16.06 20:34:53 [Server] INFO at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:413) ~[gson-2.8.9.jar%2370!/:?] {}
+16.06 20:34:53 [Server] INFO at com.google.gson.internal.bind.ObjectTypeAdapter.read(ObjectTypeAdapter.java:88) ~[gson-2.8.9.jar%2370!/:?] {}
+16.06 20:34:53 [Server] INFO at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?] {}
+16.06 20:34:53 [Server] INFO at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:187) ~[gson-2.8.9.jar%2370!/:?] {}
+16.06 20:34:53 [Server] INFO at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?] {}
+16.06 20:34:53 [Server] INFO at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?] {re:mixin}
+16.06 20:34:53 [Server] INFO ... 6 more
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.19.2
+16.06 20:34:53 [Server] main/INFO [ne.mi.co.Co.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+16.06 20:34:53 [Server] main/INFO [ne.mi.co.Co.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+16.06 20:34:53 [Server] main/INFO [ne.mi.co.Co.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+16.06 20:34:53 [Server] main/INFO [ne.me.mo.co.Moonlight/]: Initialized color sets in 51ms
+16.06 20:34:53 [Server] main/INFO [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+16.06 20:34:53 [Server] main/INFO [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+16.06 20:34:53 [Server] main/INFO [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+16.06 20:34:53 [Server] main/INFO [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+16.06 20:34:53 [Server] main/INFO [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+16.06 20:34:53 [Server] main/INFO [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+16.06 20:34:53 [Server] main/INFO [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [enchdesc] Found status: BETA Current: 13.0.14 Target: 13.0.14
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [moonlight] Found status: OUTDATED Current: 1.19.2-2.1.30 Target: 1.19.2-2.2.38
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.0.7 Target: null
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+16.06 20:34:53 [Server] main/ERROR [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/Sheets for invalid dist DEDICATED_SERVER
+16.06 20:34:53 [Server] main/ERROR [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/Sheets for invalid dist DEDICATED_SERVER
+16.06 20:34:53 [Server] main/INFO [po.by.BYG/]: Initializing BYG network...
+16.06 20:34:53 [Server] main/INFO [po.by.BYG/]: Initialized BYG network!
+16.06 20:34:53 [Server] main/INFO [terrablender/]: Registered region byg:region_0 to index 4 for type OVERWORLD
+16.06 20:34:53 [Server] main/INFO [terrablender/]: Registered region byg:region_1 to index 5 for type OVERWORLD
+16.06 20:34:53 [Server] main/INFO [terrablender/]: Registered region byg:region_2 to index 6 for type OVERWORLD
+16.06 20:34:53 [Server] main/INFO [terrablender/]: Registered region byg:region_3 to index 7 for type OVERWORLD
+16.06 20:34:53 [Server] modloading-worker-0/INFO [quark/]: Dispatching Module Step LOAD_COMPLETE
+16.06 20:34:53 [Server] main/INFO [terrablender/]: Registered region quark:biome_provider to index 8 for type OVERWORLD
+16.06 20:34:53 [Server] main/INFO [po.by.BYG/]: BYG: Compostible Blocks Added!
+16.06 20:34:53 [Server] main/INFO [po.by.BYG/]: BYG: Added tillables!
+16.06 20:34:53 [Server] main/INFO [po.by.BYG/]: BYG: Added Flammables!
+16.06 20:34:53 [Server] main/INFO [po.by.BYG/]: BYG: "Load Complete" Event Complete!
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [flywheel] Found status: UP_TO_DATE Current: 0.6.8.a Target: null
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [diagonalfences] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/diagonalfences.json
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [diagonalfences] Found status: OUTDATED Current: 4.2.4 Target: 4.2.5
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [mcwroofs] Found status: OUTDATED Current: 2.2.3 Target: 2.2.4
+16.06 20:34:53 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+16.06 20:34:54 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [cfm] Found status: BETA_OUTDATED Current: 7.0.0-pre34 Target: 7.0.0-pre35
+16.06 20:34:54 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+16.06 20:34:54 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 4.4.0 Target: 4.4.2
+16.06 20:34:54 [Server] Forge Version Check/INFO [ne.mi.fm.VersionChecker/]: [smallships] Starting version check at https://raw.githubusercontent.com/talhanation/Ship-Mod/main/update.json
+16.06 20:34:54 [Server] Forge Version Check/WARN [ne.mi.fm.VersionChecker/]: Failed to process update information
+16.06 20:34:54 [Server] INFO com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 10 column 4 path $.
+16.06 20:34:54 [Server] INFO at com.google.gson.Gson.fromJson(Gson.java:978) ~[gson-2.8.9.jar%2370!/:?] {re:mixin}
+16.06 20:34:54 [Server] INFO at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?] {re:mixin}
+16.06 20:34:54 [Server] INFO at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?] {re:mixin}
+16.06 20:34:54 [Server] INFO at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?] {re:mixin}
+16.06 20:34:54 [Server] INFO at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.2.11.jar%23226!/:?] {}
+16.06 20:34:54 [Server] INFO at java.lang.Iterable.forEach(Iterable.java:75) [?:?] {re:mixin}
+16.06 20:34:54 [Server] INFO at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.2.11.jar%23226!/:?] {}
+16.06 20:34:54 [Server] INFO Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at line 10 column 4 path $.
+16.06 20:34:54 [Server] INFO at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1562) ~[gson-2.8.9.jar%2370!/:?] {}
+16.06 20:34:54 [Server] INFO at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:490) ~[gson-2.8.9.jar%2370!/:?] {}
+16.06 20:34:54 [Server] INFO at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:413) ~[gson-2.8.9.jar%2370!/:?] {}
+16.06 20:34:54 [Server] INFO at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:184) ~[gson-2.8.9.jar%2370!/:?] {}
+16.06 20:34:54 [Server] INFO at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?] {}
+16.06 20:34:54 [Server] INFO at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?] {re:mixin}
+16.06 20:34:54 [Server] INFO ... 6 more
+
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:witherite_block Expected: 3066 Got: 6210
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:ignitium_block Expected: 3067 Got: 6211
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:polished_end_stone Expected: 3068 Got: 6212
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:polished_end_stone_slab Expected: 3069 Got: 6213
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:polished_end_stone_stairs Expected: 3070 Got: 6214
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:chiseled_end_stone_bricks Expected: 3071 Got: 6215
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:end_stone_pillar Expected: 3072 Got: 6216
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:void_infused_end_stone_bricks Expected: 3073 Got: 6217
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:void_stone Expected: 3074 Got: 6218
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:void_lantern_block Expected: 3075 Got: 6219
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:obsidian_bricks Expected: 3076 Got: 6220
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:chiseled_obsidian_bricks Expected: 3077 Got: 6221
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:obsidian_brick_slab Expected: 3078 Got: 6222
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:obsidian_brick_stairs Expected: 3079 Got: 6223
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:obsidian_brick_wall Expected: 3080 Got: 6224
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:chiseled_purpur_block Expected: 3081 Got: 6225
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:purpur_wall Expected: 3082 Got: 6226
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:purpur_void_rune_trap_block Expected: 3083 Got: 6227
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:end_stone_teleport_trap_bricks Expected: 3084 Got: 6228
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:obsidian_explosion_trap_bricks Expected: 3085 Got: 6229
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:chorus_planks Expected: 3086 Got: 6230
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:chorus_slab Expected: 3087 Got: 6231
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:chorus_stairs Expected: 3088 Got: 6232
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:chorus_fence Expected: 3089 Got: 6233
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:witherite_ingot Expected: 3090 Got: 6234
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:enderite_ingot Expected: 3091 Got: 6235
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:ignitium_ingot Expected: 3092 Got: 6236
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:chain_of_soul_binding Expected: 3093 Got: 6237
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:bulwark_of_the_flame Expected: 3094 Got: 6238
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:gauntlet_of_guard Expected: 3095 Got: 6239
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:gauntlet_of_bulwark Expected: 3096 Got: 6240
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:the_incinerator Expected: 3097 Got: 6241
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:wither_assault_shoulder_weapon Expected: 3098 Got: 6242
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:void_assault_shoulder_weapon Expected: 3099 Got: 6243
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:void_forge Expected: 3100 Got: 6244
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:final_fractal Expected: 3101 Got: 6245
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:zweiender Expected: 3102 Got: 6246
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:infernal_forge Expected: 3103 Got: 6247
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:void_scatter_arrow Expected: 3104 Got: 6248
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:void_shard Expected: 3105 Got: 6249
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:blazing_bone Expected: 3106 Got: 6250
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:void_jaw Expected: 3107 Got: 6251
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:void_core Expected: 3108 Got: 6252
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:ignitium_helmet Expected: 3109 Got: 6253
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:ignitium_chestplate Expected: 3110 Got: 6254
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:ignitium_elytra_chestplate Expected: 3111 Got: 6255
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:ignitium_leggings Expected: 3112 Got: 6256
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:ignitium_boots Expected: 3113 Got: 6257
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:monstrous_horn Expected: 3114 Got: 6258
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:monstrous_helm Expected: 3115 Got: 6259
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:burning_ashes Expected: 3116 Got: 6260
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:music_disc_netherite_monstrosity Expected: 3117 Got: 6261
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:music_disc_ender_guardian Expected: 3118 Got: 6262
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:music_disc_ignis Expected: 3119 Got: 6263
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:music_disc_the_harbinger Expected: 3120 Got: 6264
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:mech_eye Expected: 3121 Got: 6265
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:flame_eye Expected: 3122 Got: 6266
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:void_eye Expected: 3123 Got: 6267
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:monstrous_eye Expected: 3124 Got: 6268
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:ender_golem_spawn_egg Expected: 3125 Got: 6269
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:netherite_monstrosity_spawn_egg Expected: 3126 Got: 6270
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:nameless_sorcerer_spawn_egg Expected: 3127 Got: 6271
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:ender_guardian_spawn_egg Expected: 3128 Got: 6272
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:endermaptera_spawn_egg Expected: 3129 Got: 6273
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:ignis_spawn_egg Expected: 3130 Got: 6274
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:ignited_revenant_spawn_egg Expected: 3131 Got: 6275
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:the_harbinger_spawn_egg Expected: 3132 Got: 6276
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:altar_of_fire Expected: 3133 Got: 6277
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:altar_of_void Expected: 3134 Got: 6278
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:emp Expected: 3135 Got: 6279
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cataclysm:mechanical_fusion_anvil Expected: 3136 Got: 6280
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:schematicannon Expected: 3137 Got: 6281
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:schematic_table Expected: 3138 Got: 6282
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:shaft Expected: 3139 Got: 6283
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:cogwheel Expected: 3140 Got: 6284
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:large_cogwheel Expected: 3141 Got: 6285
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:andesite_encased_shaft Expected: 3142 Got: 6286
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:brass_encased_shaft Expected: 3143 Got: 6287
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:andesite_encased_cogwheel Expected: 3144 Got: 6288
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:brass_encased_cogwheel Expected: 3145 Got: 6289
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:andesite_encased_large_cogwheel Expected: 3146 Got: 6290
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:brass_encased_large_cogwheel Expected: 3147 Got: 6291
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:gearbox Expected: 3148 Got: 6292
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:clutch Expected: 3149 Got: 6293
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:gearshift Expected: 3150 Got: 6294
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:encased_chain_drive Expected: 3151 Got: 6295
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:adjustable_chain_gearshift Expected: 3152 Got: 6296
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:creative_motor Expected: 3153 Got: 6297
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:water_wheel Expected: 3154 Got: 6298
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:large_water_wheel Expected: 3155 Got: 6299
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:encased_fan Expected: 3156 Got: 6300
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:nozzle Expected: 3157 Got: 6301
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:turntable Expected: 3158 Got: 6302
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:hand_crank Expected: 3159 Got: 6303
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:cuckoo_clock Expected: 3160 Got: 6304
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:mysterious_cuckoo_clock Expected: 3161 Got: 6305
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:millstone Expected: 3162 Got: 6306
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:crushing_wheel Expected: 3163 Got: 6307
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:mechanical_press Expected: 3164 Got: 6308
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:mechanical_mixer Expected: 3165 Got: 6309
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:basin Expected: 3166 Got: 6310
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:blaze_burner Expected: 3167 Got: 6311
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:depot Expected: 3168 Got: 6312
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:weighted_ejector Expected: 3169 Got: 6313
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:chute Expected: 3170 Got: 6314
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:smart_chute Expected: 3171 Got: 6315
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:speedometer Expected: 3172 Got: 6316
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:stressometer Expected: 3173 Got: 6317
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:wooden_bracket Expected: 3174 Got: 6318
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:metal_bracket Expected: 3175 Got: 6319
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:fluid_pipe Expected: 3176 Got: 6320
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:mechanical_pump Expected: 3177 Got: 6321
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:smart_fluid_pipe Expected: 3178 Got: 6322
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:fluid_valve Expected: 3179 Got: 6323
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:copper_valve_handle Expected: 3180 Got: 6324
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:white_valve_handle Expected: 3181 Got: 6325
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:orange_valve_handle Expected: 3182 Got: 6326
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:magenta_valve_handle Expected: 3183 Got: 6327
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:light_blue_valve_handle Expected: 3184 Got: 6328
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:yellow_valve_handle Expected: 3185 Got: 6329
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:lime_valve_handle Expected: 3186 Got: 6330
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:pink_valve_handle Expected: 3187 Got: 6331
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:gray_valve_handle Expected: 3188 Got: 6332
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:light_gray_valve_handle Expected: 3189 Got: 6333
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:cyan_valve_handle Expected: 3190 Got: 6334
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:purple_valve_handle Expected: 3191 Got: 6335
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:blue_valve_handle Expected: 3192 Got: 6336
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:brown_valve_handle Expected: 3193 Got: 6337
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:green_valve_handle Expected: 3194 Got: 6338
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:red_valve_handle Expected: 3195 Got: 6339
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:black_valve_handle Expected: 3196 Got: 6340
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:fluid_tank Expected: 3197 Got: 6341
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:creative_fluid_tank Expected: 3198 Got: 6342
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:hose_pulley Expected: 3199 Got: 6343
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:item_drain Expected: 3200 Got: 6344
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:spout Expected: 3201 Got: 6345
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:portable_fluid_interface Expected: 3202 Got: 6346
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:steam_engine Expected: 3203 Got: 6347
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:steam_whistle Expected: 3204 Got: 6348
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:mechanical_piston Expected: 3205 Got: 6349
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:sticky_mechanical_piston Expected: 3206 Got: 6350
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:piston_extension_pole Expected: 3207 Got: 6351
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:gantry_carriage Expected: 3208 Got: 6352
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:gantry_shaft Expected: 3209 Got: 6353
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:windmill_bearing Expected: 3210 Got: 6354
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:mechanical_bearing Expected: 3211 Got: 6355
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:clockwork_bearing Expected: 3212 Got: 6356
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:rope_pulley Expected: 3213 Got: 6357
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:elevator_pulley Expected: 3214 Got: 6358
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:cart_assembler Expected: 3215 Got: 6359
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:controller_rail Expected: 3216 Got: 6360
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:linear_chassis Expected: 3217 Got: 6361
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:secondary_linear_chassis Expected: 3218 Got: 6362
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:radial_chassis Expected: 3219 Got: 6363
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:sticker Expected: 3220 Got: 6364
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:contraption_controls Expected: 3221 Got: 6365
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:mechanical_drill Expected: 3222 Got: 6366
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:mechanical_saw Expected: 3223 Got: 6367
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:deployer Expected: 3224 Got: 6368
+16.06 20:35:02 [Server] main/WARN [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create:portable_storage_interface Expected: 3225 Got: 6369
+
+16.06 20:35:14 [Server] INFO at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-5.0.28.jar%2375!/:?] {re:mixin}
+16.06 20:35:14 [Server] INFO at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-5.0.28.jar%2375!/:?] {}
+16.06 20:35:14 [Server] INFO at com.mojang.serialization.MapDecoder.lambda$compressedDecode$0(MapDecoder.java:52) ~[datafixerupper-5.0.28.jar%2375!/:?] {}
+16.06 20:35:14 [Server] INFO at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-5.0.28.jar%2375!/:?] {re:mixin}
+16.06 20:35:14 [Server] INFO at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar%2375!/:?] {}
+16.06 20:35:14 [Server] INFO at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-5.0.28.jar%2375!/:?] {re:mixin}
+16.06 20:35:14 [Server] INFO at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-5.0.28.jar%2375!/:?] {}
+16.06 20:35:14 [Server] INFO at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-5.0.28.jar%2375!/:?] {}
+16.06 20:35:14 [Server] INFO at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-5.0.28.jar%2375!/:?] {re:mixin}
+16.06 20:35:14 [Server] INFO at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.19.2-43.2.11-universal.jar%23230!/:?] {re:classloading}
+16.06 20:35:14 [Server] INFO at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.19.2-43.2.11-universal.jar%23230!/:?] {re:classloading}
+16.06 20:35:14 [Server] INFO at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:mixin,re:computing_frames,re:classloading}
+16.06 20:35:14 [Server] INFO at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?] {}
+16.06 20:35:14 [Server] INFO at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+16.06 20:35:14 [Server] INFO at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:classloading}
+16.06 20:35:14 [Server] INFO at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:mixin,xf:OptiFine:default,re:classloading,xf:OptiFine:default,pl:mixin:APP:mixin.imdlib-betteranimalsplus.json:UtilMixin,pl:mixin:A}
+16.06 20:35:14 [Server] INFO at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:mixin,xf:OptiFine:default,re:classloading,xf:OptiFine:default,pl:mixin:APP:mixin.imdlib-betteranimalsplus.json:UtilMixin,pl:mixin:A}
+16.06 20:35:14 [Server] INFO at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:classloading,re:mixin,pl:mixin:A}
+16.06 20:35:14 [Server] INFO at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+16.06 20:35:14 [Server] INFO at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+16.06 20:35:14 [Server] INFO at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+16.06 20:35:14 [Server] INFO at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+16.06 20:35:14 [Server] INFO at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.2.11.jar%2367!/:?] {}
+16.06 20:35:14 [Server] INFO at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:14 [Server] INFO at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:14 [Server] INFO at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:14 [Server] INFO at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:14 [Server] INFO at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:14 [Server] INFO at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:14 [Server] INFO at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:14 [Server] INFO at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+16.06 20:35:14 [Server] main/WARN [ne.mi.co.lo.LootModifierManager/]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown type ''
+16.06 20:35:14 [Server] main/WARN [ne.mi.co.lo.LootModifierManager/]: Could not decode GlobalLootModifier with json id callablehorses:horse_drop - error: Input does not contain a key [type]: MapLike[{"conditions":[{"condition":"minecraft:entity_properties","predicate":{"type":"#callablehorses:callablehorses"},"entity":"THIS"}]}]
+16.06 20:35:14 [Server] main/INFO [ne.me.su.Supplementaries/]: Loaded  8 flute songs
+16.06 20:35:14 [Server] main/INFO [ne.me.su.Supplementaries/]: Loaded  8 flute songs
+16.06 20:35:14 [Server] main/INFO [quark/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+16.06 20:35:14 [Server] main/INFO [quark/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+16.06 20:35:14 [Server] main/INFO [quark/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+16.06 20:35:14 [Server] main/INFO [quark/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+16.06 20:35:14 [Server] main/INFO [quark/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+16.06 20:35:14 [Server] main/INFO [quark/]: Modified advancement minecraft:nether/all_effects with 1 patches
+16.06 20:35:14 [Server] main/INFO [quark/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+16.06 20:35:14 [Server] main/INFO [quark/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+16.06 20:35:14 [Server] main/INFO [quark/]: Modified advancement minecraft:nether/all_potions with 1 patches
+16.06 20:35:14 [Server] main/INFO [Apotheosis : Enchantment/]: Registered 23 enchanting_stats.
+16.06 20:35:15 [Server] main/INFO [Apotheosis : Adventure/]: Registered 66 affixes.
+16.06 20:35:15 [Server] main/INFO [Apotheosis : Adventure/]: Registered 16 gems.
+16.06 20:35:15 [Server] main/INFO [Apotheosis : Adventure/]: Registered 75 affix_loot_entries.
+16.06 20:35:15 [Server] main/INFO [Apotheosis : Adventure/]: Registered 16 boss_gear.
+16.06 20:35:15 [Server] main/INFO [Apotheosis : Adventure/]: Registered 17 bosses.
+16.06 20:35:15 [Server] main/INFO [Apotheosis : Adventure/]: Registered 8 random_spawners.
+16.06 20:35:15 [Server] main/INFO [Apotheosis : Adventure/]: Registered 6 rarities.
+16.06 20:35:15 [Server] main/INFO [Apotheosis : Adventure/]: Registered 5 minibosses.
+16.06 20:35:15 [Server] main/INFO [Apotheosis : Village/]: Registered 45 wanderer_trades.
+16.06 20:35:15 [Server] main/WARN Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: idas:has_structure/bopmahogany_biomes, idas:has_structure/bygmahogany_biomes, idas:has_structure/bygredwood_biomes
+16.06 20:35:21 [Server] main/ERROR [ne.me.su.Supplementaries/]: Something went wrong during mod setup, exiting
+16.06 20:35:21 [Server] main/ERROR [ne.mi.ev.EventBus/EVENTBUS]: Exception caught during firing event: com/simibubi/create/content/contraptions/components/structureMovement/MovementBehaviour
+16.06 20:35:21 [Server] INFO Index: 2
+16.06 20:35:21 [Server] INFO Listeners:
+16.06 20:35:21 [Server] INFO 0: NORMAL
+16.06 20:35:21 [Server] INFO 1: ASM: net.minecraftforge.common.ForgeInternalHandler@2f4c6f26 tagsUpdated(Lnet/minecraftforge/event/TagsUpdatedEvent;)V
+16.06 20:35:21 [Server] INFO 2: ASM: class net.mehvahdjukaar.supplementaries.common.events.forge.ServerEventsForge onTagUpdate(Lnet/minecraftforge/event/TagsUpdatedEvent;)V
+16.06 20:35:21 [Server] INFO java.lang.NoClassDefFoundError: com/simibubi/create/content/contraptions/components/structureMovement/MovementBehaviour
+16.06 20:35:21 [Server] INFO at TRANSFORMER/supplementaries@1.19.2-2.2.39/net.mehvahdjukaar.supplementaries.integration.CreateCompat.setup(CreateCompat.java)
+16.06 20:35:21 [Server] INFO at TRANSFORMER/supplementaries@1.19.2-2.2.39/net.mehvahdjukaar.supplementaries.integration.CompatHandler.setup(CompatHandler.java:112)
+16.06 20:35:21 [Server] INFO at TRANSFORMER/supplementaries@1.19.2-2.2.39/net.mehvahdjukaar.supplementaries.reg.ModSetup.tagDependantSetup(ModSetup.java:117)
+16.06 20:35:21 [Server] INFO at TRANSFORMER/supplementaries@1.19.2-2.2.39/net.mehvahdjukaar.supplementaries.common.events.ServerEvents.onCommonTagUpdate(ServerEvents.java:126)
+16.06 20:35:21 [Server] INFO at TRANSFORMER/supplementaries@1.19.2-2.2.39/net.mehvahdjukaar.supplementaries.common.events.forge.ServerEventsForge.onTagUpdate(ServerEventsForge.java:149)
+16.06 20:35:21 [Server] INFO at TRANSFORMER/supplementaries@1.19.2-2.2.39/net.mehvahdjukaar.supplementaries.common.events.forge.__ServerEventsForge_onTagUpdate_TagsUpdatedEvent.invoke(.dynamic)
+16.06 20:35:21 [Server] INFO at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+16.06 20:35:21 [Server] INFO at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+16.06 20:35:21 [Server] INFO at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+16.06 20:35:21 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.ReloadableServerResources.m_206868_(ReloadableServerResources.java:101)
+16.06 20:35:21 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.WorldLoader.m_214372_(WorldLoader.java:35)
+16.06 20:35:21 [Server] INFO at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+16.06 20:35:21 [Server] INFO at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+16.06 20:35:21 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.Util.m_214652_(Util.java:781)
+16.06 20:35:21 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.Util.m_214679_(Util.java:770)
+16.06 20:35:21 [Server] INFO at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Main.main(Main.java:157)
+16.06 20:35:21 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+16.06 20:35:21 [Server] INFO at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+16.06 20:35:21 [Server] INFO at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+16.06 20:35:21 [Server] INFO at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+16.06 20:35:21 [Server] INFO at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.11/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29)
+16.06 20:35:21 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+16.06 20:35:21 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+16.06 20:35:21 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+16.06 20:35:21 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+16.06 20:35:21 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+16.06 20:35:21 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+16.06 20:35:21 [Server] INFO at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+16.06 20:35:21 [Server] INFO at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+16.06 20:35:21 [Server] INFO Caused by: java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.components.structureMovement.MovementBehaviour
+16.06 20:35:21 [Server] INFO at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+16.06 20:35:21 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+16.06 20:35:21 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137)
+16.06 20:35:21 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+16.06 20:35:21 [Server] INFO at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137)
+16.06 20:35:21 [Server] INFO at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+16.06 20:35:21 [Server] INFO ... 29 more
+16.06 20:35:21 [Server] main/WARN Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
+16.06 20:35:21 [Server] INFO java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: com/simibubi/create/content/contraptions/components/structureMovement/MovementBehaviour
+16.06 20:35:21 [Server] INFO at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?] {re:mixin}
+16.06 20:35:21 [Server] INFO at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?] {re:mixin}
+16.06 20:35:21 [Server] INFO at net.minecraft.server.Main.main(Main.java:182) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:classloading,re:mixin,pl:mixin:A}
+16.06 20:35:21 [Server] INFO at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+16.06 20:35:21 [Server] INFO at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+16.06 20:35:21 [Server] INFO at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+16.06 20:35:21 [Server] INFO at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+16.06 20:35:21 [Server] INFO at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.2.11.jar%2367!/:?] {}
+16.06 20:35:21 [Server] INFO at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:21 [Server] INFO at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:21 [Server] INFO at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:21 [Server] INFO at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:21 [Server] INFO at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:21 [Server] INFO at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:21 [Server] INFO at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?] {}
+16.06 20:35:21 [Server] INFO at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+16.06 20:35:21 [Server] INFO Caused by: java.lang.NoClassDefFoundError: com/simibubi/create/content/contraptions/components/structureMovement/MovementBehaviour
+16.06 20:35:21 [Server] INFO at net.mehvahdjukaar.supplementaries.integration.CreateCompat.setup(CreateCompat.java) ~[supplementaries-1.19.2-2.2.39.jar%23218!/:?] {re:classloading}
+16.06 20:35:21 [Server] INFO at net.mehvahdjukaar.supplementaries.integration.CompatHandler.setup(CompatHandler.java:112) ~[supplementaries-1.19.2-2.2.39.jar%23218!/:?] {re:mixin,re:classloading}
+16.06 20:35:21 [Server] INFO at net.mehvahdjukaar.supplementaries.reg.ModSetup.tagDependantSetup(ModSetup.java:117) ~[supplementaries-1.19.2-2.2.39.jar%23218!/:?] {re:classloading}
+16.06 20:35:21 [Server] INFO at net.mehvahdjukaar.supplementaries.common.events.ServerEvents.onCommonTagUpdate(ServerEvents.java:126) ~[supplementaries-1.19.2-2.2.39.jar%23218!/:?] {re:classloading}
+16.06 20:35:21 [Server] INFO at net.mehvahdjukaar.supplementaries.common.events.forge.ServerEventsForge.onTagUpdate(ServerEventsForge.java:149) ~[supplementaries-1.19.2-2.2.39.jar%23218!/:?] {re:classloading}
+16.06 20:35:21 [Server] INFO at net.mehvahdjukaar.supplementaries.common.events.forge.__ServerEventsForge_onTagUpdate_TagsUpdatedEvent.invoke(.dynamic) ~[supplementaries-1.19.2-2.2.39.jar%23218!/:?] {re:classloading,pl:eventbus:B}
+16.06 20:35:21 [Server] INFO at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2351!/:?] {}
+16.06 20:35:21 [Server] INFO at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2351!/:?] {}
+16.06 20:35:21 [Server] INFO at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2351!/:?] {}
+16.06 20:35:21 [Server] INFO at net.minecraft.server.ReloadableServerResources.m_206868_(ReloadableServerResources.java:101) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:mixin,re:classloading,pl:mixin:A}
+16.06 20:35:21 [Server] INFO at net.minecraft.server.WorldLoader.m_214372_(WorldLoader.java:35) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:classloading}
+16.06 20:35:21 [Server] INFO at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?] {}
+16.06 20:35:21 [Server] INFO at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+16.06 20:35:21 [Server] INFO at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:mixin,xf:OptiFine:default,re:classloading,xf:OptiFine:default,pl:mixin:APP:mixin.imdlib-betteranimalsplus.json:UtilMixin,pl:mixin:A}
+16.06 20:35:21 [Server] INFO at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:mixin,xf:OptiFine:default,re:classloading,xf:OptiFine:default,pl:mixin:APP:mixin.imdlib-betteranimalsplus.json:UtilMixin,pl:mixin:A}
+16.06 20:35:21 [Server] INFO at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:classloading,re:mixin,pl:mixin:A}
+16.06 20:35:21 [Server] INFO ... 13 more
+16.06 20:35:21 [Server] INFO Caused by: java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.components.structureMovement.MovementBehaviour
+16.06 20:35:21 [Server] INFO at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?] {}
+16.06 20:35:21 [Server] INFO at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?] {}
+16.06 20:35:21 [Server] INFO at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.4.jar:?] {}
+16.06 20:35:21 [Server] INFO at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?] {}
+16.06 20:35:21 [Server] INFO at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.4.jar:?] {}
+16.06 20:35:21 [Server] INFO at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?] {}
+16.06 20:35:21 [Server] INFO at net.mehvahdjukaar.supplementaries.integration.CreateCompat.setup(CreateCompat.java) ~[supplementaries-1.19.2-2.2.39.jar%23218!/:?] {re:classloading}
+16.06 20:35:21 [Server] INFO at net.mehvahdjukaar.supplementaries.integration.CompatHandler.setup(CompatHandler.java:112) ~[supplementaries-1.19.2-2.2.39.jar%23218!/:?] {re:mixin,re:classloading}
+16.06 20:35:21 [Server] INFO at net.mehvahdjukaar.supplementaries.reg.ModSetup.tagDependantSetup(ModSetup.java:117) ~[supplementaries-1.19.2-2.2.39.jar%23218!/:?] {re:classloading}
+16.06 20:35:21 [Server] INFO at net.mehvahdjukaar.supplementaries.common.events.ServerEvents.onCommonTagUpdate(ServerEvents.java:126) ~[supplementaries-1.19.2-2.2.39.jar%23218!/:?] {re:classloading}
+16.06 20:35:21 [Server] INFO at net.mehvahdjukaar.supplementaries.common.events.forge.ServerEventsForge.onTagUpdate(ServerEventsForge.java:149) ~[supplementaries-1.19.2-2.2.39.jar%23218!/:?] {re:classloading}
+16.06 20:35:21 [Server] INFO at net.mehvahdjukaar.supplementaries.common.events.forge.__ServerEventsForge_onTagUpdate_TagsUpdatedEvent.invoke(.dynamic) ~[supplementaries-1.19.2-2.2.39.jar%23218!/:?] {re:classloading,pl:eventbus:B}
+16.06 20:35:21 [Server] INFO at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2351!/:?] {}
+16.06 20:35:21 [Server] INFO at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2351!/:?] {}
+16.06 20:35:21 [Server] INFO at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2351!/:?] {}
+16.06 20:35:21 [Server] INFO at net.minecraft.server.ReloadableServerResources.m_206868_(ReloadableServerResources.java:101) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:mixin,re:classloading,pl:mixin:A}
+16.06 20:35:21 [Server] INFO at net.minecraft.server.WorldLoader.m_214372_(WorldLoader.java:35) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:classloading}
+16.06 20:35:21 [Server] INFO at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?] {}
+16.06 20:35:21 [Server] INFO at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+16.06 20:35:21 [Server] INFO at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:mixin,xf:OptiFine:default,re:classloading,xf:OptiFine:default,pl:mixin:APP:mixin.imdlib-betteranimalsplus.json:UtilMixin,pl:mixin:A}
+16.06 20:35:21 [Server] INFO at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:mixin,xf:OptiFine:default,re:classloading,xf:OptiFine:default,pl:mixin:APP:mixin.imdlib-betteranimalsplus.json:UtilMixin,pl:mixin:A}
+16.06 20:35:21 [Server] INFO at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23225!/:?] {re:classloading,re:mixin,pl:mixin:A}
+16.06 20:35:21 [Server] INFO ... 13 more
